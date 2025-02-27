@@ -15,8 +15,8 @@ services:
   root_db: 
     environment: 
       POSTGRES_DB: root_db
-      POSTGRES_PASSWORD: TW5189gfFQMp3rISO31ki
-      POSTGRES_USER: lynx
+      POSTGRES_PASSWORD: password
+      POSTGRES_USER: postgres
     healthcheck: 
       interval: 10s
       retries: 10
